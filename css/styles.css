@@ -12,3 +12,10 @@ p {
 color: blueviolet;
 
 }
+#my-avatar {
+    width: 150px;
+    border-radius: 50%;
+}
+#content {
+    text-align: center;
+}
