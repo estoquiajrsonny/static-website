@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dancing+Script&display=swap');
 
+/* CSS reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color:aqua;
+    background-color:#98B4D4;
     font-family: "DM Serif Display", serif;
+    color: #2A0944;
     
-}
-
-h1,
-h2 {
-    color:crimson;
-}
-p {
-
-color: blueviolet;
 
 }
 #my-avatar {
@@ -24,4 +23,5 @@ color: blueviolet;
 }
 #my-name{
     font-family: "Dancing Script" , cursive;
+    color: #A10035;
 }
