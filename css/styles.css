@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dancing+Script&display=swap');
+
 body {
     background-color:aqua;
+    font-family: "DM Serif Display", serif;
     
 }
 
@@ -18,4 +21,7 @@ color: blueviolet;
 }
 #content {
     text-align: center;
+}
+#my-name{
+    font-family: "Dancing Script" , cursive;
 }
