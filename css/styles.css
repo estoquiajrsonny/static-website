@@ -6,11 +6,19 @@
     margin: 3px;
     box-sizing: border-box;
 }
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+
+}
 
 body {
     background-color: #926AA6;
     font-family: "DM Serif Display", serif;
     color: #2A0944;
+   
 }
 
 #my-avatar {
@@ -48,4 +56,14 @@ header {
 }
 .nav-link {
     margin-left: 8px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 16px;
+}
+footer a:first-child {
+    margin-right: 16px;
 }
