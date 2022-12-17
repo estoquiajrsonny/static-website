@@ -15,7 +15,7 @@ body {
 }
 
 body {
-    background-color: #926AA6;
+    background-color: #926aa6;
     font-family: "DM Serif Display", serif;
     color: #2A0944;
    
@@ -73,3 +73,25 @@ footer a:first-child {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+ /* Projects page */
+
+ #hero-banner {
+    background: linear-gradient(150deg, plum, tan, #2f7ea8);
+ }
+ #hero-banner > div {
+width: 50%;
+margin-top: 0;
+margin-right: auto;
+margin-bottom: 0;
+margin-left: auto;
+ }
+ #hero-banner > div > div {
+    display: inline-block;
+ }
+ h3 {
+    text-align: center;
+    font-size: 30px;
+    width: 78%;
+ }
+
+ 
