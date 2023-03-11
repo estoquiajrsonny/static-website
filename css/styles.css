@@ -21,6 +21,15 @@ body {
    
 }
 
+header {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+
+}
+
 #my-avatar {
     width: 150px;
     border-radius: 50%;
@@ -34,25 +43,22 @@ body {
     color: hsl(340, 93%, 29%);
 
 }
-#left-side {
-background-color: NONE;
-position: absolute;
-top: 16px;
-left: 16px;
-}
-#left-side > a {
-    margin-right: 16px;
-}
-#right-side {
+ #left-side {
+display: flex;
+display direction: row;
+column-gap: 16px;
+} 
+
+
+/* #right-side {
     background-color: NONE;
     position: absolute;
     top: 16px;
-    right: 16px;
-}
+    right: 16px; */
+
 a {
     color: NONE;
     text-decoration: none;
-    border-bottom: 1px dotted NONE;
 }
  
 
